@@ -1,0 +1,13 @@
+C:\Users\goldl\source\repos\CourseProject\bin\Debug\netcoreapp3.1\CourseProject.exe
+C:\Users\goldl\source\repos\CourseProject\bin\Debug\netcoreapp3.1\CourseProject.deps.json
+C:\Users\goldl\source\repos\CourseProject\bin\Debug\netcoreapp3.1\CourseProject.runtimeconfig.json
+C:\Users\goldl\source\repos\CourseProject\bin\Debug\netcoreapp3.1\CourseProject.runtimeconfig.dev.json
+C:\Users\goldl\source\repos\CourseProject\bin\Debug\netcoreapp3.1\CourseProject.dll
+C:\Users\goldl\source\repos\CourseProject\bin\Debug\netcoreapp3.1\CourseProject.pdb
+C:\Users\goldl\source\repos\CourseProject\obj\Debug\netcoreapp3.1\CourseProject.csprojAssemblyReference.cache
+C:\Users\goldl\source\repos\CourseProject\obj\Debug\netcoreapp3.1\CourseProject.AssemblyInfoInputs.cache
+C:\Users\goldl\source\repos\CourseProject\obj\Debug\netcoreapp3.1\CourseProject.AssemblyInfo.cs
+C:\Users\goldl\source\repos\CourseProject\obj\Debug\netcoreapp3.1\CourseProject.csproj.CoreCompileInputs.cache
+C:\Users\goldl\source\repos\CourseProject\obj\Debug\netcoreapp3.1\CourseProject.dll
+C:\Users\goldl\source\repos\CourseProject\obj\Debug\netcoreapp3.1\CourseProject.pdb
+C:\Users\goldl\source\repos\CourseProject\obj\Debug\netcoreapp3.1\CourseProject.genruntimeconfig.cache
