@@ -11,6 +11,22 @@ namespace CourseProject
         private Node<T> _tail;
         int count;
 
+        public T this[int index]
+        {
+            get
+            {
+                if (index < 0) throw new ArgumentOutOfRangeException();
+                Node<T> current = _head;
+                for (int i = 0; i < index; i++)
+                {
+                    if (current.Next == null)
+                        throw new ArgumentOutOfRangeException();
+                    current = current.Next;
+                }
+                return current.Element;
+            }
+        }
+
         public void Add(T element)
         {
             Node<T> node = new Node<T>(element);
@@ -100,10 +116,10 @@ namespace CourseProject
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return ((IEnumerable)this).GetEnumerator();
+            return GetEnumerator();
         }
 
-        IEnumerator<T> IEnumerable<T>.GetEnumerator()
+        public IEnumerator<T> GetEnumerator()
         {
             Node<T> current = _head;
             while (current != null)

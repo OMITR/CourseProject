@@ -9,7 +9,7 @@ namespace CourseProject
             var s1 = new Client("Валерий Жмышенко", 1);
             var s2 = new Client("Олег", 2);
             var s3 = new Client("Санта Клаус", 3);
-            var s4 = new Client("Johny Silverhand", 4);
+            var s4 = new Client("Johnny Silverhand", 4);
             var s5 = new Client("Carlos", 5);
             var s6 = new Client("Mickey", 225);
 
