@@ -15,7 +15,7 @@ namespace CourseProject
         {
             get
             {
-                if (index < 0 || index > count)
+                if (index < 0 || index >= count)
                     throw new ArgumentOutOfRangeException();
                 Node<T> current = _head;
                 for (int i = 0; i < index; i++)
@@ -29,7 +29,7 @@ namespace CourseProject
 
             set
             {
-                if (index < 0 || index > count)
+                if (index < 0 || index >= count)
                     throw new ArgumentOutOfRangeException();
                 Node<T> current = _head;
                 for (int i = 0; i < index; i++)
