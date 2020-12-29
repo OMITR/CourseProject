@@ -15,7 +15,8 @@ namespace CourseProject
         {
             get
             {
-                if (index < 0) throw new ArgumentOutOfRangeException();
+                if (index < 0 || index > count)
+                    throw new ArgumentOutOfRangeException();
                 Node<T> current = _head;
                 for (int i = 0; i < index; i++)
                 {
@@ -24,6 +25,20 @@ namespace CourseProject
                     current = current.Next;
                 }
                 return current.Element;
+            }
+
+            set
+            {
+                if (index < 0 || index > count)
+                    throw new ArgumentOutOfRangeException();
+                Node<T> current = _head;
+                for (int i = 0; i < index; i++)
+                {
+                    if (current.Next == null)
+                        throw new ArgumentOutOfRangeException();
+                    current = current.Next;
+                }
+                current.Element = value;
             }
         }
 

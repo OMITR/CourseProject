@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace CourseProject
 {
@@ -53,6 +54,8 @@ namespace CourseProject
             {
                 Console.WriteLine(s.Name);
             }
+
+            Console.ReadKey();
         }
     }
 }
